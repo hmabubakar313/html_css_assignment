@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact</title>
+	<link rel="stylesheet" href="contact.css">
+</head>
+<body>
+	<div>
+	<!--Head Section-->
+	<header>
+	<img src="panacloud.png" alt="logo" width="130px" height="50px"/>
+	<a href="contact.html">Contact</a>
+	<a href="port.html">Portfolio</a>
+	<a href="about.html">About</a>
+	<a href="home.html">Home</a>
+	
+	</header>
+	
+	<section>
+        <form action="" method="post">
+            <!-- USER DETAIL-->
+    <fieldset>
+        <legend><strong>Your Details:</strong></legend>
+        <label for="fName">Name: </label>
+        <input type="text" id="fName" name="fname" placeholder="Enter Full Name.."><br /><br />
+        <label for="email">Email: </label>
+        <input type="email" id="email" name="email" placeholder="Enter Email Address...."><br /><br />
+        <label for="dob">Date of Birth: </label>
+        <input type="date" id="dob" name="dob"><br /><br />
+        Gender: <input type="radio" id="male" name="gender" value="male"><label for="male"> Male</label> &nbsp;<input type="radio" id="female" name="gender" value="female"><label for="female"> Female</label>
+    </fieldset><br/>
+    <!-- USER Review-->
+    <fieldset width="50%">
+        <legend>Your Review :</legend>
+        <p>How did you hear about us?
+        <select name="review"  >
+        <option value="Google" >Google</option>
+        <option value="Facebook" selected>Facebook</option>
+        <option value="News" selected>News</option>
+        </select>
+        </p>
+        <p>Whould you visit again?<br />
+        <input type="radio" name="visit" value="yes" id="yes"><label for="yes">Yes</label>&nbsp;
+        <input type="radio" name="visit" value="no" id="no"><label for="no">No</label>&nbsp;
+        <input type="radio" name="visit" value="mayBe" id="mayBe"><label for="mayBe">May Be</label>
+        </p>
+        <p>
+        Comments:<br />
+        <textarea name="comments" rows="5" cols="40"></textarea>
+        </p>
+        <input type="checkbox" name="agreement" value="agree" id="agree">&nbsp;<label for="agree">Sign me up for Email Updates</label><br /><br />
+        <input type="submit" value="Submit Review">
+    </fieldset>
+</form>
+    </section>
+	<!--footer Section-->
+	<footer>
+		<p>Copyright &copy; 2020. All rights reserved.</p>
+	</footer>
+	</div>
+</body>
+</html>
